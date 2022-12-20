@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background: url(./img-imc.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.square {
+    height: auto;
+    padding-bottom: 30px;
+    width: 500px;
+    
+    border-radius: 3%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+
+    background: rgba(255, 255, 255, 0.29);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.6px);
+    -webkit-backdrop-filter: blur(5.6px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.row {
+    margin: auto;
+    width: 30%;
+    padding: 50px;
+}
+
+.calculadoraImc {
+    font-family: 'Jost',sans-serif;
+    font-size: 19px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    height: 25px;
+    width: 87%;
+    border-radius: 4px;
+
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.6px);
+    -webkit-backdrop-filter: blur(5.6px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.square h1 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    padding-top: auto;
+    color: black;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.imcTitulo {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.atividadeFisica {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    color: gray;
+    font-size: 25px;
+    height: 40px;
+    width: 90%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.6px);
+    -webkit-backdrop-filter: blur(5.6px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.botaoCalcula {
+    color: white;
+    background-color: #010B40;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+    margin-top: 20px;
+    margin-left: 18px;
+    width: 90%;
+    height: 55px;
+    font-size: 25px;
+    border-radius: 16px ;
+    cursor: pointer;
+}
+
+.botaoCalcula:hover {
+    color: #010B40;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.mensagemFinal {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 23px;
+    text-align: justify;
+    color: black;
+
+}

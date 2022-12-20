@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>CALCULADORA IMC</title>
+</head>
+<body>
+    
+    <div class="row">
+        <div class="square">
+            <form onsubmit="calculaImc(event)">
+                <h1 class="offTela">Calculador IMC</h1>
+
+                <label for="imcPeso" class='imcTitulo offTela'>Peso</label>
+                <input type="number" name='imcPeso' class='calculadoraImc offTela 'placeholder='ex: 62,5' step='0.01' id='imcPeso'>
+
+                <label for="imcAltura" class='imcTitulo offTela'>Altura</label>
+                <input type="number" name='imcAltura' class='calculadoraImc offTela' placeholder='ex: 1,73' step='0.01' id='imcAltura'>
+
+                <label for="imcIdade" class='imcTitulo offTela'>Idade</label>
+                <input type="number" name='imcIdade' class='calculadoraImc offTela' placeholder='ex: 35' id='imcIdade'>
+                
+                <label for="imcSexo" class='imcTitulo offTela'>Atividade Física</label>
+                <select name="atividadeFisica" class='atividadeFisica' id='imcNivelFisico'>
+
+                    <option value="opçao" class='atividadeFisica'>Opção</option>
+                    <option value="sedentario" class='atividadeFisica'>Sedentário</option>
+                    <option value="moderado" class='atividadeFisica'>Moderado</option>
+                    <option value="intenso" class='atividadeFisica'>Intenso</option>
+                </select>
+
+                <input type="submit" class='botaoCalcula' value='Calcular' id='calcular'>
+            </form>
+
+        <div class="mensagemFinal" id="mensagemFinal">
+
+        </div>
+        </div>
+
+        <div class="enfeite">
+
+        </div>
+    </div>
+
+
+
+
+</body>
+
+<script src="script.js"></script>
+</html>
